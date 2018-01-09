@@ -6,6 +6,7 @@ _site
 .ruby-version
 .bundle
 vendor/cache
+vendor/bundle
 
 # Numerous always-ignore extensions
 *.diff
@@ -37,16 +38,9 @@ Thumbs.db
 .komodotools
 *.komodoproject
 
-# grunt-html-validation
-validation-report.json
-validation-status.json
-
-# SCSS-Lint
-scss-lint-report.xml
-
-# grunt-contrib-sass cache
-.sass-cache
+# Jekyll metadata and extra config file for `github` script
+docs/.jekyll-metadata
+twbsconfig.yml
 
 # Folders to ignore
-bower_components
 node_modules
